@@ -1,0 +1,14 @@
+PyQt6
+PyQt6-WebEngine
+markdown
+pygments
+pyyaml
+websocket-client
+cryptography
+requests
+pyinstaller
+
+# For development and testing only
+pytest
+pytest-qt
+pytest-mock

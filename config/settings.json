@@ -1,0 +1,33 @@
+{
+    "gatewayURL": "ws://localhost:3001",
+    "theme": "Peach",
+    "character": "Jazz",
+    "providers": [
+        "Claude",
+        "Codex",
+        "Copilot",
+        "Gemini",
+        "OpenCode",
+        "OpenClaw"
+    ],
+    "provider": "Gemini",
+    "providerCharacterMap": {
+        "Claude": "bruce",
+        "Gemini": "jazz",
+        "Codex": "MrCat",
+        "Copilot": "MrCat"
+    },
+    "characterSize": "medium",
+    "characterVisibilityMode": "always",
+    "monitorExternalCli": true,
+    "walkDurationSec": 9.0,
+    "pauseMinSec": 5.0,
+    "pauseMaxSec": 10.0,
+    "shortPauseMinSec": 2.0,
+    "shortPauseMaxSec": 5.0,
+    "showCursorTerminalLink": false,
+    "showIdleRosterCharacters": false,
+    "linkBridgeAutoPaste": true,
+    "linkBridgeSendEnter": true,
+    "cliWorkingDirectory": "C:\\Users\\Admin\\Downloads\\New folder (9)"
+}

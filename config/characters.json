@@ -1,0 +1,136 @@
+{
+    "version": 1,
+    "characters": [
+        {
+            "name": "bruce",
+            "display_name": "Bruce",
+            "frames_dir": "bruce_frames",
+            "default_provider": "Claude",
+            "walk_timing": {
+                "accel_start": 3.0,
+                "full_speed_start": 3.75,
+                "decel_start": 8.0,
+                "walk_stop": 8.5,
+                "walk_amount": [0.4, 0.65],
+                "y_offset_px": 0,
+                "flip_x_offset_px": 0
+            },
+            "personality": {
+                "thinking_phrases": [
+                    "Thinking...",
+                    "Let me work on that...",
+                    "Crunching the problem...",
+                    "Reading carefully...",
+                    "One sec..."
+                ],
+                "done_phrases": [
+                    "Done!",
+                    "All set.",
+                    "There you go.",
+                    "Wrapped it up."
+                ],
+                "accent_color": "#FF8C69",
+                "greeting": "Hey {user}, Bruce here — what are we building?",
+                "sound_variant": "aa"
+            }
+        },
+        {
+            "name": "jazz",
+            "display_name": "Jazz",
+            "frames_dir": "jazz_frames",
+            "default_provider": "Gemini",
+            "walk_timing": {
+                "accel_start": 3.9,
+                "full_speed_start": 4.5,
+                "decel_start": 8.0,
+                "walk_stop": 8.75,
+                "walk_amount": [0.35, 0.6],
+                "y_offset_px": 0,
+                "flip_x_offset_px": -9
+            },
+            "personality": {
+                "thinking_phrases": [
+                    "Riffing on it...",
+                    "Cooking something up...",
+                    "Vibing with the idea...",
+                    "Improvising...",
+                    "Give me a beat..."
+                ],
+                "done_phrases": [
+                    "Nice.",
+                    "Smooth.",
+                    "That's the track.",
+                    "Boom."
+                ],
+                "accent_color": "#8E7CFF",
+                "greeting": "Hey {user}, Jazz on the mic. Let's make something cool.",
+                "sound_variant": "bb"
+            }
+        },
+        {
+            "name": "deci",
+            "display_name": "Deci",
+            "frames_dir": "deci_frames",
+            "default_provider": "Codex",
+            "walk_timing": {
+                "accel_start": 3.0,
+                "full_speed_start": 3.75,
+                "decel_start": 8.0,
+                "walk_stop": 8.5,
+                "walk_amount": [0.4, 0.65],
+                "y_offset_px": 0,
+                "flip_x_offset_px": 0
+            },
+            "personality": {
+                "thinking_phrases": [
+                    "Parsing...",
+                    "Compiling in my head...",
+                    "Running the numbers...",
+                    "Checking the spec...",
+                    "Indexing..."
+                ],
+                "done_phrases": [
+                    "Shipped.",
+                    "Green build.",
+                    "Compiled clean.",
+                    "Ready."
+                ],
+                "accent_color": "#4FC38A",
+                "greeting": "Deci online. Hey {user} — what does the code need?",
+                "sound_variant": "cc"
+            }
+        },
+        {
+            "name": "MrCat",
+            "display_name": "MrCat",
+            "frames_dir": "MrCat_frames",
+            "default_provider": "Copilot",
+            "walk_timing": {
+                "accel_start": 3.0,
+                "full_speed_start": 3.75,
+                "decel_start": 8.0,
+                "walk_stop": 8.5,
+                "walk_amount": [0.4, 0.65],
+                "y_offset_px": 0,
+                "flip_x_offset_px": 0
+            },
+            "personality": {
+                "thinking_phrases": [
+                    "Hmm, let me think...",
+                    "Reading again...",
+                    "Thinking out loud...",
+                    "Considering the options..."
+                ],
+                "done_phrases": [
+                    "Okay!",
+                    "Done for you.",
+                    "All yours.",
+                    "Hope that helps."
+                ],
+                "accent_color": "#6FB3FF",
+                "greeting": "Hey {user}, what do you need?",
+                "sound_variant": "dd"
+            }
+        }
+    ]
+}
