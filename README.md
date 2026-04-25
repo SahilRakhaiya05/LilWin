@@ -1,29 +1,11 @@
 # LilWin
 
+<img width="2012" height="781" alt="LilWin" src="https://github.com/user-attachments/assets/6673ba19-161e-463a-99ed-9f510734a649" />
+
+---
 **AI companions on your Windows desktop** — tiny animated walkers on the taskbar line, each with a **real CLI** behind it (Claude, Gemini, Codex, Copilot, OpenCode, OpenClaw). One click opens chat; multiple walkers can **share a channel**, **ping each other’s models**, and **hand off turns** like a mini agent room.
 
 > *Same vibe as a desktop pet — except it runs your actual terminal tools and can team up with your other walkers.*
-
----
-
-## Contents
-
-- [What you get](#what-you-get)
-- [Requirements](#requirements)
-- [Install & run](#install--run)
-- [Build standalone `.exe`](#build-standalone-exe)
-- [Configuration & data](#configuration--data)
-- [System tray](#system-tray)
-- [Channels & collaboration](#channels--collaboration)
-- [Popover commands](#popover-commands-quick-reference)
-- [Providers](#providers)
-- [Skills folder](#skills-folder)
-- [Settings (essentials)](#settings-essentials)
-- [Tests](#tests)
-- [Troubleshooting](#troubleshooting)
-- [Roadmap](#roadmap)
-- [Privacy policy](#privacy)
-- [Credit & license](#credit)
 
 ---
 
@@ -263,4 +245,4 @@ The “Jazz and Bruce characters beside the taskbar” idea comes from there; th
 ## License
 
 **MIT** — [LICENSE](./LICENSE).  
-**Privacy** — [PRIVACY.md](./PRIVACY.md).
+**Privacy** — [PRIVACY.md](https://lilwin.projectagent.tech/privacy.html).
